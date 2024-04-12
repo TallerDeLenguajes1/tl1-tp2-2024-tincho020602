@@ -5,8 +5,13 @@
 #define N 20
 int main(){ 
 int i;
+//<<<<<<< HEAD
 srand(time(NULL));
-double vt[N];
+
+//=======
+float vt[N];
+srand(time(NULL));
+//>>>>>>> Opcion_2
 for(i = 0;i<N; i++)
 {
 *(vt+1)=1+rand()%100;
